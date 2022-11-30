@@ -86,7 +86,7 @@ const HomePage = (props) => {
 
   return (
     <JobsContext.Provider value={value}>
-      <Loader show={isLoading}>Loading...</Loader>
+      <Loader show={isLoading}>Loading</Loader>
       <div className={`${page === 'details' && 'hide'}`}>
         <Header />
         <Search />
